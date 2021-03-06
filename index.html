@@ -1,1 +1,217 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="manifest" href="manifest/site.webmanifest" />
+  <title>Portfólio</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="hamburguer">
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+      <span>fechar</span>
+    </div>
+
+    <header id="home">
+
+      <div class="img-wrapper">
+        <img src="img/bg.jpg" alt="">
+      </div>
+      <div class="banner">
+        <h1>Web Developer & Back End</h1>
+        <p>Jonathan Lima</p>
+
+    </header>
+
+    <aside class="sidebar">
+      <nav>
+        <ul class="menu">
+          <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+          <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
+          <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
+          <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-linkedin" onclick="redirecionar()"></i></a>
+        <a href="#"><i class="fab fa-twitter" onclick="redirecionar1()"></i></a>
+        <a href="#"><i class="fab fa-github" onclick="redirecionar2()"></i></a>
+
+      </div>
+    </aside>
+
+    <section class="sessao-conhecimentos" id="conhecimentos">
+      <div class="sessao-header">
+        <h1>Conhecimentos</h1>
+      </div>
+      <div class="conhecimentos">
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Tenho conhecimento básico em HTML5 sem experiência no mercado. Já realizei alguns projetos usando HTML.
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Tenho conhecimento básico em CSS3 sem experiência profissional. Já realizei alguns projetos usando CSS.
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fas fa-pencil-alt"></i>
+            <h3>cSharp</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Minha principal linguagem e também favorita, possuo conhecimento teórico, sem experiência profissional.
+              Já realizei alguns projetos usando cSharp.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-js"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Com JS, um amor recém descoberto, hoje estudo completamente focado em JS, possuo conhecimento teórico,
+              sem expêriencia profissional. Já realizei alguns projetos usando js.
+            </p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-bandcamp"></i>
+            <h3>Lua</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Conhecimento em desenvolvimento em Lua,1 ano de experiência com programação em Lua para servidores de
+              FiveM.</p>
+          </div>
+        </div>
+        <div class="conhecimento">
+          <div class="conhecimento-header">
+            <i class="fab fa-github"></i>
+            <h3>Git e GitHub</h3>
+          </div>
+          <div class="conhecimento-text">
+            <p>Conhecimento básico em Git e GitHub, sou apto a realizar trabalhos utilizando estes recursos.</p>
+          </div>
+        </div>
+        <div class="conhecimentos-img-wrapper">
+          <img src="img/conhecimentos.png" alt="imagem conhecimento">
+        </div>
+      </div>
+    </section>
+
+    <div class="sessao-projetos" id="projetos">
+      <div class="sessao-header">
+        <h1>Projetos</h1>
+      </div>
+      <div class="projetos">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="img/print-netflix.png" alt="imagem do projeto ToDo" />
+          </div>
+          <div class="card-info">
+            <h2>Recriando pág</h2>
+            <h3>Netflix</h3>
+            <p>Nesse projeto foi recriada a interface principal da Netflix.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="img/print-insta.png" alt="imagem do projeto Maratona" />
+          </div>
+          <div class="card-info">
+            <h2>Recriando pág</h2>
+            <h3>Instagram</h3>
+            <p>Nesse projeto foi recriada a interface de logout do Instagram.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="img/print-snake.png" alt="imagem do projeto Maratona" />
+          </div>
+          <div class="card-info">
+            <h2>Recriando o jogo</h2>
+            <h3>Snake Game</h3>
+            <p>Nesse projeto foi recriado o famoso jogo da cobrinha "Snake Game".</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="img/print-site.png" alt="imagem do projeto Casa Bela" />
+          </div>
+          <div class="card-info">
+            <h2>Criação deste Site</h2>
+            <h3>Meu Portfólio</h3>
+            <p>Nesse projeto eu busquei criar um site funcional, utilizando HTML, CSS e JS.</p>
+          </div>
+        </div>
+      </div>
+
+      </section>
+
+      <section class="sessao-contato" id="contato">
+        <div class="contato-wrapper">
+          <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" id="nome">
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" id="email">
+                <label for="email" class="field-label">E-mail</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" class="btn btn-submit" onclick="enviar()">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-content">
+          <p>
+            Copyright &copy; 2021, ETECIA DS - Todos os diretos reservados
+          </p>
+          <div class="social-list">
+            <ul>
+              <li><a href=""><i class="fab fa-linkedin" onclick="redirecionar()"></i> </a></li>
+              <li><a href=""><i class="fab fa-twitter" onclick="redirecionar1()"></i></a></li>
+              <li><a href=""><i class="fab fa-github" onclick="redirecionar2()"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <a href="#home" id="link-topo">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
